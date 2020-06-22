@@ -1,0 +1,12 @@
+div.cop {
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+div.cop:hover {
+    background-color: #333333;
+    color: #ffffff;
+}

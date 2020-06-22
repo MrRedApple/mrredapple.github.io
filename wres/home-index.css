@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+}
+
+div#hf {
+    position: relative;
+    left: 30%;
+    width: 40%;
+}
+
+div#home {
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul#frame {
+    position: relative;
+    left: 50%;
+    width: 40%;
+}
+
+li.oli {
+    position: relative;
+    left: -135px;
+}
+
+li.tli {
+    position: relative;
+    left: -13.5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    div#hf {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+}

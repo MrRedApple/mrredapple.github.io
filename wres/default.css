@@ -1,0 +1,124 @@
+body {
+    background-color: #c8c8a9;
+    margin: 0;
+}
+
+div#page {
+    margin: 8px;
+}
+
+div#hf {
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+div.modal {
+    background-color: #000000e6;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+div.mf {
+    position: relative;
+    left: 30%;
+    width: 40%;
+}
+
+div.mf h2 {
+    text-align: center;
+}
+
+div#tf:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+a.close {
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 95%;
+}
+
+a.close:hover {
+    background-color: #00000000;
+    color: #aaaaaa;
+}
+
+a#HeaderIcon {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20%;
+    background-image: url("/wres/icon.jpg");
+    background-size: 72px 72px;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+a#HeaderIcon:hover {
+    opacity: 0.9;
+}
+
+header {
+    height: 72px;
+    background-color: #333333;
+}
+
+ul.header {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 9px 20% 9px 0;
+    overflow: hidden;
+    display: block;
+}
+
+li.header {
+    float: right;
+}
+
+li.header a {
+    color: #e0e0e0;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+li.header a:hover {
+    color: #aaaaaa;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    div.mf {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+}
