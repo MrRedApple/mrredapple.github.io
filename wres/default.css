@@ -3,14 +3,6 @@ body {
     margin: 0;
 }
 
-div#page {
-    margin: 8px;
-}
-
-div#hf {
-    margin: 8px;
-}
-
 a {
     text-decoration: none;
     color: #000000;
