@@ -1,0 +1,42 @@
+div#head, div#down {
+    margin: 5% 0 0 10%;
+    width: 70%;
+}
+
+div.cop {
+     border-radius: 8px;
+     background-color: #ffffff;
+     color: #000000;
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+ }
+
+div.cop:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+div.ncop {
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+div.db {
+    margin: 0 5px;
+    float: left;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+div.db:hover {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #333333;
+    color: #ffffff;
+}
